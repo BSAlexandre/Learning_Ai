@@ -8,6 +8,6 @@ public class UpdateMove : MonoBehaviour
 
     void Update()
     {
-        this.transform.Translate(0, 0, spd);
+        this.transform.Translate(0, 0, Time.deltaTime * spd);
     }
 }
