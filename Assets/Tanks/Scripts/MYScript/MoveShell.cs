@@ -8,7 +8,7 @@ public class MoveShell : MonoBehaviour
     public float spd = 1f;
     public float upspd;
 
-    void start()
+    void Start()
     {
         upspd = spd/2f;
     }
