@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class MoveShell : MonoBehaviour
+public class MyMoveShell : MonoBehaviour
 {
     public float spd = 1f;
     public float upspd;
